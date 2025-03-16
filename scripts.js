@@ -14,7 +14,7 @@ function cliquei() {
 function alerta(){
     if(document.querySelector('.input-min').value >= document.querySelector('.input-max').value){
 
-        alert(`O valor do primeiro campo não pode ser maior que o valor do segundo campo!`)
+        alert(`O valor do primeiro campo tem que ser menor que o valor do segundo campo!`)
 
         paragraph.innerHTML = ``
     }
